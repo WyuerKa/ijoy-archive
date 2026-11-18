@@ -1,0 +1,6 @@
+# Archived files are stored byte-for-byte; never convert line endings.
+* -text
+*.md text eol=lf
+*.csv text eol=lf
+*.tsv -text
+*.txt -text
